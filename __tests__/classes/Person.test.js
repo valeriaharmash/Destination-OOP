@@ -1,3 +1,4 @@
+
 const Person = require('../../classes/Person')
 const Bag = require('../../classes/Bag')
 describe('Person', () => {
@@ -24,3 +25,4 @@ describe('Person', () => {
 		expect(ownersBags).toContain(bag)
 	})
 })
+

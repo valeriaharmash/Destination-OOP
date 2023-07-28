@@ -1,3 +1,4 @@
+
 const Bag = require('../../classes/Bag')
 const Person = require('../../classes/Person')
 describe('Bag', () => {
@@ -17,3 +18,4 @@ describe('Bag', () => {
 		expect(bag.owner).toBe(null)
 	})
 })
+
