@@ -1,15 +1,11 @@
 class Bag {
 	constructor(weight, id) {
-		this.weight = weight;
-		this.id = id;
-		this.owner = null;
+		this.weight = weight
+		this.id = id
+		this.owner = null
 	}
-
 	assignOwner(person) {
-		this.owner = person;
+		this.owner = person
 	}
-
 }
-
-
-module.exports = Bag;
+module.exports = Bag
